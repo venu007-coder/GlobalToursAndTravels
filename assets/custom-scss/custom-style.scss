@@ -1,0 +1,200 @@
+body {
+    background-color: #bfc4ef !important;
+}
+
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)) !important;
+    backdrop-filter: blur(6px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+}
+
+.container-custom {
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+}
+
+.hero-section-title {
+    font-size: 64px;
+    padding-top: 25px;
+    color: white;
+    line-height: 70px;
+}
+
+.contact-us-title {
+    font-size: 64px;
+    padding-top: 10px;
+    color: white;
+    line-height: 70px;
+}
+
+.career-title {
+    font-size: 50px;
+    padding-top: 10px;
+    color: white;
+    line-height: 70px;
+}
+
+.Serive-custom-title {
+    font-size: 43px;
+    padding-top: 10px;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    background-image: url('^assets/media/Serviceimages/island.jpg');
+    background-size: cover;
+
+
+
+}
+
+.hero-section {
+    width: 100%;
+    max-height: 100%;
+    background-image: url('^assets/media/Homeimages/hero_section_bg_1.jpg');
+    background-size: cover;
+    padding-bottom: 60px;
+}
+
+.home-contact-section {
+    width: 100%;
+    max-height: 100%;
+    background-image: url('^assets/media/Homeimages/dark_blue_bg.jpg');
+    background-size: cover;
+}
+
+.home-medical-section {
+    width: 100%;
+    max-height: 100%;
+    background-image: url('^assets/media/Homeimages/medical_background.jpg');
+    background-size: cover;
+}
+
+
+.about-us-title {
+    font-size: 80px;
+    padding-top: 10px;
+    color: white;
+    line-height: 100px;
+}
+
+.choose_us_title:hover {
+    color: #384cfc;
+    border: 2px solid #bfc4ef;
+    border-radius: 10px;
+}
+
+.about-list {
+    font-size: 16px;
+}
+
+.wave {
+    background-image: url('^assets/media/Homeimages/wave-2.jpg');
+    background-size: cover;
+}
+
+.choose_us_title.active {
+    color: #fff;
+    background-color: #bfc4ef;
+    border-radius: 10px;
+}
+
+#scroll-bar-table {
+    // display: flex;
+    // flex-direction: column-reverse; /* Change to column-reverse to reverse the order */
+    overflow-y: auto;
+    height: 520px;
+    /* Set a max height or adjust as needed */
+}
+
+#scroll-bar-table::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+#scroll-bar-table::-webkit-scrollbar {
+    width: 4px;
+    background-color: #F5F5F5;
+}
+
+#scroll-bar-table::-webkit-scrollbar-thumb {
+    background-color: #003f75;
+}
+
+.Wave_Side {
+    background-image: url('^assets/media/Clientimages/client_bg.jpg');
+    background-size: cover;
+}
+
+.image_pack {
+    height: 250px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    filter: grayscale(100%);
+    transition: 1.5s;
+}
+
+.image_pack:hover {
+    filter: grayscale(0%);
+    transform: scale(1.5);
+}
+
+.package_types {
+    transition: 0.5s;
+}
+
+.package_types:hover {
+    transform: scale(1.1);
+    background-color: #bfc4ef;
+    color: white;
+    font-weight: 600;
+}
+
+.package_types.active {
+    background-color: #bfc4ef;
+    color: white;
+    font-weight: 600;
+}
+
+
+.custom-employee-image {
+    height: 320px;
+    position: absolute;
+    top: 1780px;
+    right: 140px;
+}
+
+/* On screens that are 1021px or less, set the style */
+@media screen and (max-width: 1021px) {
+
+    .custom-employee-image {
+        height: 340px;
+        position: sticky;
+        margin-left: 20px;
+    }
+
+    .about-us-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .container-custom {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-section {
+        margin-left: 0px;
+    }
+
+    .margin-left-custom {
+        margin-left: 0px;
+    }
+
+    .contact-us-title {
+        font-size: 50px;
+        text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    }
+
+}
